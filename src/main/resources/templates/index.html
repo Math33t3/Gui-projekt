@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .button {
+        background-color: deeppink;
+        color: black;
+        border: 2px solid black;
+        margin: 50px;
+        padding: 50px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 28px;
+        font-style: italic;
+        font-weight: bold;
+        cursor: crosshair;
+    }
+
+    .button1{
+    position : absolute;
+        top: 5%;
+        left: 5%;
+        -ms-transform: translateY(-15%);
+        transform: translateY(-15%);
+
+    }
+    .button2{
+    position: absolute;
+        top: 5%;
+        right: 5%;
+        -ms-transform: translateY(-15%);
+        transform: translateY(-15%);
+    }
+    .button3{
+    position: absolute;
+        top: 50%;
+        right: 32%;
+        transform: translate(10%);
+        justify-content: center;
+        align-items: center;
+
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>forside</title>
+</head>
+<body style="background-color:lightpink">
+    <h1 style="text-align: center"> Madspild </h1>
+    <input class="button button1" onclick="window.location.href='index1.html';" value="Miljø" />
+    <input class="button button2" onclick="window.location.href='index2.html';" value="Hvad kan DU gøre" />
+    <input class="button button3" onclick="window.location.href='index3.html';" value="Generel Info" />
+
+
+</body>
+</html>
