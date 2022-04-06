@@ -90,18 +90,19 @@ h1.header:hover{
     background-color: darkolivegreen;
     color: lightgreen;
 }
+.billede:hover{
+    opacity: 0;
+    position: absolute;
+}
 .giffy{
-    position: fixed;
+    position: absolute;
     left: 20px;
     opacity: 0;
 }
 .giffy:hover{
     opacity: 1;
 }
-.gif:hover{
-    opacity: 0;
-    position: fixed;
-}
+
 div.infoTable{
     height: 150px;
     width: 850px;
